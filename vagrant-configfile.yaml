@@ -1,0 +1,8 @@
+---
+virtual_machines_total: "" # Numbers of Virtual Machines
+virtual_machines_hostname: "" # Virtual Machines Hostname
+virtual_machine_image: "" # Image that will be used
+virtual_machine_eth01: "" # Ipv4 xxx.xxx.xxx.
+virtual_machine_eth01_device_start: "" # Last number of the Ipv4 xxx
+total_memory: "" # Total memory used 
+total_cpu: "" # cpu used from host

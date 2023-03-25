@@ -12,15 +12,15 @@ The script retrieves the following configuration parameters from the vagrant-con
     `virtual_machine_image:` The VM image to be used.  
     `total_memory:` The amount of memory allocated to each VM.  
     `total_cpu:` The number of CPUs allocated to each VM.  
-    `virtual_machine_eth01:` The IP address that the virtual machines will start at.  
-    `virtual_machine_eth01_device_start:` The starting device ID for the virtual   
+    `virtual_machine_eth01:` The First 3 fields of the IPv4 xxx.xxx.xxx.  
+    `virtual_machine_eth01_device_start:` The last field of the IPv4 xxx
 
-3. Make the script executable  
+1. Make the script executable  
 
     ```
     chmod +x vagrant-generator.sh
     ```
-4. Run the script: 
+2. Run the script: 
     ```
     ./vagrant-generator.sh
     ```
